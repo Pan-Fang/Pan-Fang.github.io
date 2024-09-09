@@ -7,19 +7,35 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the Materials Engineering Department at Delft University of Technology, working under the supervision of Prof. [Hans Hopman](https://www.tudelft.nl/staff/j.j.hopman/?cHash=2bb7c806023d588d9fe61e6db2281977), Dr. [Xiaoli Jiang](https://www.tudelft.nl/staff/x.jiang/), and Prof. [Yong Bai](https://person.zju.edu.cn/en/0010294). My research focuses on developing an advanced modeling method for local mechanical analysis of submarine power cables. My broader interests include multi-scale analysis, finite element analysis, multi-physical simulations, composite structures, and computational mechanics.
+* I am a PhD candidate in the Materials Engineering Department at Delft University of Technology (TUD)
 
-See updates
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+* Supervised by Prof. [Hans Hopman](https://www.tudelft.nl/staff/j.j.hopman/?cHash=2bb7c806023d588d9fe61e6db2281977) and Dr. [Xiaoli Jiang](https://www.tudelft.nl/staff/x.jiang/), my PhD project addressed:
 
-#主标题在下一行键入=，二级标题在下一行键入-，字体会自动变粗。单纯加粗键入**text**
+- An effective modelling method based on multi-scale analysis
+- Initial residual contact stresses among the interfaces in power cables
+- Stick-slip issue among interfaces
+- Multi-physical study based on the proposed model
 
-A data-driven personal website
+* Priori to joining TUD, I received my master's degree in the College of Civil Engineering at Zhejiang University in 2019. My master project addressed:
+
+- Development of a constitutive model for fiber glass reinforced flexible pipes
+- Fracture analysis of fibreglass flexible pipes
+- Torsion strength of unbonded steel strip flexible pipes
+- Stick-slip issue among interfaces in unbonded flexible pipes
+
+
+
+Research interests
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+
+Multi-scale analysis, Solid structures, Composite structures, Computational mechanics, Finite element analysis, Multi-physical analysis
 
 
+Selected works
+======
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+1. Fang, Pan, et al. "Development of an effective modeling method for the mechanical analysis of three-core submarine power cables under tension." Engineering Structures 317 (2024): 118632.
+2. Fang, Pan, et al. "Bending study of submarine power cables based on a repeated unit cell model." Engineering Structures 293 (2023): 116606.
+3. Fang, Pan, et al. "Mechanical responses of a fiberglass flexible pipe subject to tension & internal pressure." Thin-Walled Structures 181 (2022): 110107.
 
 
