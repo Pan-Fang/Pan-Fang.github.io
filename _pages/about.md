@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-* I am a PhD candidate in the Materials Engineering Department at Delft University of Technology (TUD)
-
-* Supervised by Prof. [Hans Hopman](https://www.tudelft.nl/staff/j.j.hopman/?cHash=2bb7c806023d588d9fe61e6db2281977) and Dr. [Xiaoli Jiang](https://www.tudelft.nl/staff/x.jiang/), my PhD project addressed:
+* I am a PhD candidate in the Materials Engineering Department at Delft University of Technology (TUD), supervised by Prof. [Hans Hopman](https://www.tudelft.nl/staff/j.j.hopman/?cHash=2bb7c806023d588d9fe61e6db2281977) and Dr. [Xiaoli Jiang](https://www.tudelft.nl/staff/x.jiang/). My PhD project addressed:
 
 *An effective modelling method based on multi-scale analysis*
 
