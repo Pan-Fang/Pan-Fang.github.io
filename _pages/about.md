@@ -38,7 +38,7 @@ Research interests
 Selected works
 ======
 
-1. Fang, Pan, et al. "Development of an effective modeling method for the mechanical analysis of three-core submarine power cables under tension." Engineering Structures 317 (2024): 118632.
+1. [Fang, Pan, et al. "Development of an effective modeling method for the mechanical analysis of three-core submarine power cables under tension." Engineering Structures 317 (2024): 118632.](https://github.com/Pan-Fang/Pan-Fang.github.io/blob/master/assets/Development%20of%20an%20effective%20modeling%20method%20for%20the%20mechanical%20analysis%20of%20three-core%20submarine%20power%20cables%20under%20tension.pdf)
 2. Fang, Pan, et al. "Bending study of submarine power cables based on a repeated unit cell model." Engineering Structures 293 (2023): 116606.
 3. Fang, Pan, et al. "Mechanical responses of a fiberglass flexible pipe subject to tension & internal pressure." Thin-Walled Structures 181 (2022): 110107.
 4. Fang, Pan, et al. "Computational homogenization method for the bending analysis of submarine power cables." Journal of Physics: Conference Series. Vol. 2647. No. 2. IOP Publishing, 2024.
