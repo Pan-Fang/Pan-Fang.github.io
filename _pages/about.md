@@ -11,17 +11,23 @@ redirect_from:
 
 * Supervised by Prof. [Hans Hopman](https://www.tudelft.nl/staff/j.j.hopman/?cHash=2bb7c806023d588d9fe61e6db2281977) and Dr. [Xiaoli Jiang](https://www.tudelft.nl/staff/x.jiang/), my PhD project addressed:
 
-- An effective modelling method based on multi-scale analysis
-- Initial residual contact stresses among the interfaces in power cables
-- Stick-slip issue among interfaces
-- Multi-physical study based on the proposed model
+**An effective modelling method based on multi-scale analysis**
+
+**Initial residual contact stresses among the interfaces in power cables**
+
+**Stick-slip issue among interfaces**
+
+**Multi-physical study based on the proposed model**
 
 * Priori to joining TUD, I received my master's degree in the College of Civil Engineering at Zhejiang University in 2019. My master project addressed:
 
-- Development of a constitutive model for fiber glass reinforced flexible pipes
-- Fracture analysis of fibreglass flexible pipes
-- Torsion strength of unbonded steel strip flexible pipes
-- Stick-slip issue among interfaces in unbonded flexible pipes
+**Development of a constitutive model for fiber glass reinforced flexible pipes**
+
+**Fracture analysis of fibreglass flexible pipes**
+
+**Torsion strength of unbonded steel strip flexible pipes**
+
+**Stick-slip issue among interfaces in unbonded flexible pipes**
 
 
 
