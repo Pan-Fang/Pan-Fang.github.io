@@ -2,6 +2,9 @@
 
 ![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 
+
+_data/navigation.yml修改网页上的标签显示，比如Publicaitons, Researchs, Codes等内容。
+
 Academic Pages is a Github Pages template for academic websites.
 
 # Getting Started
