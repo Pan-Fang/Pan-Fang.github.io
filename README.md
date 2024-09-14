@@ -4,6 +4,8 @@
 
 
 _data/navigation.yml修改网页上的标签显示，比如Publicaitons, Researchs, Codes等内容。
+_pages/about 修改主页个人信息内容，参考这个链接：https://blog.csdn.net/qd1813100174/article/details/128604858
+_pages/publications.html修改tab publications里面的具体文章
 
 Academic Pages is a Github Pages template for academic websites.
 
