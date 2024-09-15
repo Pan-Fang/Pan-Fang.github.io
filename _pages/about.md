@@ -32,7 +32,7 @@ redirect_from:
 Research interests
 ======
 
-*Multi-scale analysis, Solid structures, Composite structures, Computational mechanics, Finite element analysis, Multi-physical analysis*
+*Multi-scale analysis, Solid structures, Composite structures, Fracture analysis, Computational mechanics, Finite element analysis, Multi-physical analysis*
 
 
 Selected works
