@@ -9,6 +9,10 @@ _pages/about 修改主页个人信息内容，参考这个链接：https://blog.
 
 _pages/publications.html修改tab publications里面的具体文章
 
+_pages/Research.html修改tab Research里面的研究内容
+
+_pages/Codes.html修改tab Codes里面的代码
+
 Academic Pages is a Github Pages template for academic websites.
 
 # Getting Started
