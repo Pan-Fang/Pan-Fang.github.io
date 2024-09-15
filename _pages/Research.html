@@ -14,68 +14,66 @@ author_profile: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>Research</title> -->
+    <title>Research Section</title>
     <style>
-        /* 样式定义 */
-        .research-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
         }
-
-        .research-item {
-            margin: 10px;
-            text-align: center;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        .research-item img {
-            width: 300px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 5px;
+        h2 {
+            font-size: 28px;
+            color: #333;
         }
-
-        .research-item a {
-            text-decoration: none;
-            color: black;
-            font-size: 18px;
-            display: block;
-            margin-top: 10px;
-            padding: 10px;
-            background-color: #f0f0f0;
-            border-radius: 5px;
+        h3 {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #007BFF;
         }
-
-        .research-item a:hover {
-            background-color: #ddd;
+        p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            margin-top: 20px;
+        }
+        .image-grid img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
 
-    <h1>Research</h1>
-    <div class="research-container">
-        <!-- 第一项 -->
-        <div class="research-item">
-            <a href="link-to-SPC.html">
-                <img src="Pan-Fang.github.io/images/SPC.png" alt="SPC">
-                Submarine power cables
-            </a>
+    <div class="container">
+        <h2>Research</h2>
+        <h3>Coverage path planning (CPP) for USV-assisted coastal bathymetric survey</h3>
+        <p>Featuring agile operational ability and low financial costs, unmanned surface vehicles are a desirable tool to perform bathymetric mapping for coastal regions. However, the CPP problem for bathymetry remains an ongoing challenge due to its NP-hard feature, conflicting objectives, and complex ocean environments. This research aims to design effective mathematical models and solvers to address these challenges. We use knowledge from remote sensing, optimization, robotics, and marine engineering to develop algorithms for optimal solutions. Numerical simulations and lake trials are performed to validate the effectiveness in practical applications.</p>
+
+        <div class="image-grid">
+            <img src="image1.jpg" alt="Generated waypoints and coastal line">
+            <img src="image2.jpg" alt="Simulation of bathymetric survey">
+            <img src="image3.jpg" alt="USV on the lake">
+            <img src="image4.jpg" alt="Bathymetry trials on lake">
         </div>
-
-        <!-- 第二项 -->
-        <div class="research-item">
-            <a href="link-to-flexible-pipe.html">
-                <img src="flexible-pipe.jpg" alt="flexible-pipe">
-                Flexible pipe
-            </a>
-        </div>
-
-
     </div>
 
 </body>
 </html>
+
 
 
 
