@@ -7,105 +7,99 @@ author_profile: true
 
 <!-- 在这里添加自己的所有Codes简介 -->
 
-Please find below a description of some of the codes that I have developed during my research. In most cases the source code is also provided. 
-Please remember to cite the corresponding paper(s) if you use any of these codes for research or industrial purposes. 
-Do not hesitate to contact me if you have any questions.
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Section</title>
+    <title>Research Codes</title>
     <style>
+        /* 整体布局 */
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            font-size: 28px;
-            color: #333;
-        }
-        h3 {
-            font-size: 24px;
-            margin-top: 20px;
-            color: #007BFF;
-        }
-        p {
-            font-size: 16px;
-            color: #555;
             line-height: 1.6;
+            color: #333;
+            margin: 20px;
         }
-        .image-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* 每行三列 */
-            grid-gap: 10px;
+        
+        /* 提示框样式 */
+        .notice {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+        }
+        
+        /* 代码部分标题 */
+        .code-section {
             margin-top: 20px;
         }
-        .image-grid img {
-            width: 100%; /* 确保图片占满单元格 */
-            height: auto; /* 保持图片的比例 */
-            max-width: 250px; /* 设置图片最大宽度 */
-            border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        
+        /* 单个代码条目的样式 */
+        .code-item {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding: 15px 0;
+        }
+        
+        /* 代码条目文字内容样式 */
+        .code-text {
+            flex: 1;
+        }
+        
+        /* 代码条目标题样式 */
+        .code-title {
+            color: #66cc00;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        /* 下载链接样式 */
+        .download-link {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        /* 图片样式 */
+        .code-image {
+            width: 100px;
+            height: auto;
+            margin-left: 20px;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h2>Research-1</h2>
-        <h3>Development of an effective modeling method for the local mechanical analysis of submarine power cables</h3>
-        <p>The structural complexity of submarine power cables (SPCs) and complex contact issues within present significant challenges in their local
-            mechanical analysis. This research introduces an advanced modeling method developed for analyzing the
-            mechanical behavior of SPCs under a range of different loadings, emphasizing both accuracy and efficiency. 
-            The method’s accuracy is validated through a comparison of simulation results with tests conducted on three-core SPC and single-core
-            samples. Efficiency is demonstrated by the superior calculation speed of our model relative to traditional
-            full-scale models. This improved performance is achieved by adopting periodic boundary conditions derived
-            from the homogenization method applied to slender beam-like structures, and by employing a specialized
-            combination of elements to model the helical metal components within the SPCs. The resulting model provides
-            robust capabilities for the mechanical analysis of SPCs. I have made the codes in this research open access. Please find them in Codes page.</p>
+    <!-- 提示框 -->
+    <div class="notice">
+        Please find below a description of some of the codes that I have developed during my research. In most cases, the source code is also provided. Please remember to cite the corresponding paper(s) if you use any of these codes for research or industrial purposes. Do not hesitate to contact me if you have any questions.
+    </div>
 
-        <div class="image-grid">
-            <img src="https://pan-fang.github.io/images/SPC-1.png" alt="Submarine power cables-1">
-            <img src="https://pan-fang.github.io/images/SPC-2.png" alt="Submarine power cables-2">
-            <img src="https://pan-fang.github.io/images/SPC-3.png" alt="Submarine power cables-3">
-            <img src="https://pan-fang.github.io/images/SPC-4.png" alt="Submarine power cables-4">
-            <img src="https://pan-fang.github.io/images/SPC-5.png" alt="Submarine power cables-5">
-            <img src="https://pan-fang.github.io/images/SPC-6.png" alt="Submarine power cables-6">
+    <!-- 代码部分 -->
+    <div class="code-section">
+        <h2>Codes</h2>
+        
+        <!-- 单个代码条目 -->
+        <div class="code-item">
+            <!-- 文字内容部分 -->
+            <div class="code-text">
+                <a href="#" class="code-title">TDS SIMULATOR: AN APP FOR TEMPERATURE-PROGRAMMED HYDROGEN DESORPTION</a>
+                <p>
+                    MATLAB App to rigorously simulate hydrogen desorption with the main hydrogen transport and trapping models (Oriani, McNabb-Foster) and arbitrary trapping characteristics. See <a href="https://tdssimulator.web.ox.ac.uk/" target="_blank">https://tdssimulator.web.ox.ac.uk/</a>
+                </p>
+                <p>
+                    Paper: E. García-Macías, Z.D. Harris, E. Martínez-Pañeda. TDS Simulator: A MATLAB App to model temperature-programmed hydrogen desorption. International Journal of Hydrogen Energy (2024)
+                </p>
+                <a href="#" class="download-link">Download code (.zip file)</a>
+            </div>
+            
+            <!-- 图片部分 -->
+            <img src="path/to/your/image.png" alt="TDS Simulator Image" class="code-image">
         </div>
     </div>
-  
+
 </body>
 </html>
-
-
-
-<div style="display: flex; align-items: flex-start;">
-    <!-- 左侧的文字 -->
-    <div style="flex: 1; padding-right: 20px;">
-        <h2>Research-1</h2>
-        <h3>Development of an effective modeling method for the local mechanical analysis of submarine power cables</h3>
-        <p>
-            The structural complexity of submarine power cables (SPCs) and complex contact issues within
-            present significant challenges in their local mechanical analysis. This research introduces an 
-            advanced modeling method developed for analyzing the mechanical behavior of SPCs...
-        </p>
-    </div>
-
-    <!-- 右侧的图片 -->
-    <div>
-        <img src="path/to/your/image.png" alt="Submarine Power Cable Diagram" width="300">
-    </div>
-</div>
 
