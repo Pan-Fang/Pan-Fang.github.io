@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-* I am a PhD candidate in the Materials Engineering Department at Delft University of Technology (TUD), supervised by Prof. [Hans Hopman](https://www.tudelft.nl/staff/j.j.hopman/?cHash=2bb7c806023d588d9fe61e6db2281977) and Dr. [Xiaoli Jiang](https://www.tudelft.nl/staff/x.jiang/). My PhD project addressed:
+* I hold a PhD degree in the Mechanical, Materials and Maritime Engineering Department (3ME) at Delft University of Technology (TUD), supervised by Prof. [Hans Hopman](https://www.tudelft.nl/staff/j.j.hopman/?cHash=2bb7c806023d588d9fe61e6db2281977) and Dr. [Xiaoli Jiang](https://www.tudelft.nl/staff/x.jiang/). My PhD project addressed:
 
   *An effective modelling method based on multi-scale analysis*
 
@@ -17,7 +17,7 @@ redirect_from:
 
   *Multi-physical study based on the proposed model*
 
-* Priori to joining TUD, I received my master's degree in the College of Civil Engineering at Zhejiang University in 2019, supervised by Prof. [Yong Bai](https://person.zju.edu.cn/en/0010294). My master project addressed:
+* I received my master's degree in the College of Civil Engineering at Zhejiang University in 2019, supervised by Prof. [Yong Bai](https://person.zju.edu.cn/en/0010294). My master project addressed:
 
   *Development of a constitutive model for fiber glass reinforced flexible pipes*
 
