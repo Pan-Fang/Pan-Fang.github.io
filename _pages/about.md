@@ -17,7 +17,7 @@ redirect_from:
 
   *Multi-physical study based on the proposed model*
 
-* I received my master's degree in the College of Civil Engineering at Zhejiang University in 2019, supervised by Prof. [Yong Bai]([https://person.zju.edu.cn/en/0010294](https://person.zju.edu.cn/en/0010294)). My master project addressed:
+* I received my master's degree in the College of Civil Engineering at Zhejiang University in 2019, supervised by Prof. [Yong Bai](https://person.zju.edu.cn/en/0010294#0). My master project addressed:
 
   *Development of a constitutive model for fiber glass reinforced flexible pipes*
 
