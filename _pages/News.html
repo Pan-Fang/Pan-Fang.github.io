@@ -1,1 +1,129 @@
+---
+layout: archive
+permalink: /News/
+author_profile: true
+---
 
+<!-- 在这里添加自己的所有Codes简介 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <style>
+        /* 整体布局 */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 20px;
+        }
+        
+        /* 提示框样式 */
+        .notice {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            font-size: 20px !important /* 调整字体大小 */
+        }
+        
+        /* 代码部分标题 */
+        .code-section {
+            margin-top: 20px;
+        }
+        
+        /* 单个代码条目的样式 */
+        .code-item {
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #ccc;   /* 顶部边框 */
+            border-bottom: 1px solid #ccc; /* 底部边框 */
+            padding: 15px 0;
+        }
+        
+        /* 代码条目文字内容样式 */
+        .code-text {
+            flex: 1;
+            font-size: 16px !important /* /* 调整字体大小 */
+        }
+        
+        /* 代码条目标题样式 */
+        .code-title {
+            color: #66cc00;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        /* 下载链接样式 */
+        .download-link {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        /* 图片样式 */
+        .code-image {
+            width: 200px;
+            height: auto;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 提示框 -->
+    <div class="notice">
+        Please find below a description of some of the codes that I have developed during my research. 
+        Please remember to cite the corresponding paper(s) if you use any of these codes for research or industrial purposes. 
+        Do not hesitate to contact me if you have any questions.
+    </div>
+
+    <!-- 代码部分 -->
+    <div class="code-section">
+        <h2>Codes</h2>
+        
+        <!-- 单个代码条目 第一块代码区-->
+        <div class="code-item">
+            <!-- 文字内容部分 -->
+            <div class="code-text">
+                <a href="#" class="code-title">RUC model: an effective model for the local mechanical analysis of submarine power cables</a>
+                <p>
+                    A FORTRAN code and a python code are provided. The former is for the periodical boundary conditions while the latter is for the beam and shell element in pre-processing process.
+                </p>
+                <p>
+                    Paper:  <b>Fang, P.</b>, Li, X., Jiang, X., Hopman, H. and Bai, Y., 2024. Development of an effective modeling method for the mechanical analysis of three-core submarine power cables under tension. Engineering Structures, 317, p.118632. <a href="https://www.sciencedirect.com/science/article/pii/S0141029624011945">Link</a><br>
+                            <b>Fang, P.</b>, Li, X., Jiang, X., Hopman, H. and Bai, Y., 2023. Bending study of submarine power cables based on a repeated unit cell model. Engineering Structures, 293, p.116606. <a href="https://www.sciencedirect.com/science/article/pii/S0141029623010210">Link</a><br>
+                </p>
+                <a href="https://pan-fang.github.io/assets/RUC code.zip" class="download-link">Download code (.zip file)</a>
+            </div>
+            
+            <!-- 图片部分 -->
+            <img src="https://pan-fang.github.io/images/SPC-3.png" alt="Submarine power cables-3" class="code-image">
+        </div>
+
+
+
+        <!-- 单个代码条目 第二块代码区 -->
+        <div class="code-item">
+            <!-- 文字内容部分 -->
+            <div class="code-text">
+                <a href="#" class="code-title">User-defined materials: bending analysis of submarine power cables under multi-physical effects</a>
+                <p>
+                    A FORTRAN code for an user-defined material accounting the temperature effect is provided. To be uploaded soon!
+                </p>
+            </div>
+            
+            <!-- 图片部分 -->
+            <img src="https://pan-fang.github.io/images/UMATDevelopment.png" alt="UMATDevelopment" class="code-image">
+        </div>
+
+
+
+        
+    </div>
+
+</body>
+</html>
