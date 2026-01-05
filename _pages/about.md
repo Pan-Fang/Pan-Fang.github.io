@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
+* My research lies at the intersection of Applied Mechanics, Ocean Engineering, and Advanced Manufacturing. I focus on decoding the multiphysics instability of slender structures—specifically submarine power cables and flexible risers—to ensure the reliability of the global Net Zero energy transition.
+
+Currently a Postdoctoral Researcher at Ghent University, I am pioneering a hybrid approach that combines thermo-mechanical coupled modelling with novel experimental frameworks (leveraging additive manufacturing and tomography). My work aims to unravel complex phenomena such as topological mode transitions and contact-driven hysteresis in hierarchical helical systems. By integrating theoretical depth with industrial relevance, I strive to advance the fundamental understanding of how critical marine infrastructure behaves in deep-water environments.
+
 * I hold a PhD degree in the Mechanical, Materials and Maritime Engineering Department (3ME) at Delft University of Technology (TUD), supervised by Prof. [Hans Hopman](https://www.tudelft.nl/staff/j.j.hopman/?cHash=2bb7c806023d588d9fe61e6db2281977) and Dr. [Xiaoli Jiang](https://www.tudelft.nl/staff/x.jiang/). My PhD project addressed:
 
   *An effective modelling method based on multi-scale analysis*
