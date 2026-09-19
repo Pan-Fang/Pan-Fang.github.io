@@ -5,147 +5,147 @@ permalink: /Research/
 author_profile: true
 ---
 
-<!-- 在这里添加自己的所有Research简介 -->
+<style>
+  .research-intro {
+    margin-bottom: 1.8rem;
+    font-size: 1.02em;
+    line-height: 1.7;
+  }
+  .research-card {
+    margin: 0 0 1.5rem 0;
+    padding: 1.15rem 1.25rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background: #fff;
+  }
+  .research-card h2 {
+    margin-top: 0;
+    margin-bottom: 0.55rem;
+    font-size: 1.3em;
+  }
+  .research-card h3 {
+    margin-top: 0;
+    color: #4a4a4a;
+    font-size: 1.05em;
+    font-weight: 600;
+  }
+  .research-card p {
+    line-height: 1.65;
+  }
+  .research-tags {
+    margin-top: 0.7rem;
+    color: #666;
+    font-size: 0.92em;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin-top: 1rem;
+  }
+  .image-grid img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #eee;
+  }
+  @media (max-width: 760px) {
+    .image-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .image-grid img {
+      height: auto;
+    }
+  }
+</style>
 
+<div class="research-intro">
+  My research is organised around a common question: <strong>how does geometry control the mechanics of slender and hierarchical structures?</strong>
+  I develop analytical, computational, and experimental approaches that connect local frame descriptions and hierarchical geometry to contact, stiffness, instability, and structural response.
+</div>
 
+<div class="research-card">
+  <h2>1. Geometric mechanics of hierarchical slender structures</h2>
+  <h3>From local frames to recursive helical geometry</h3>
+  <p>
+    A current focus is the geometric description of multi-level helical and filamentary structures.
+    I am developing <strong>Hierarchical Bishop-Frame Mapping (HBFM)</strong>, a framework that uses rotation-minimising (Bishop) frames to separate carrier geometry from material or orbital phase during recursive construction.
+    The aim is to preserve intended pitch, phase, topology, and material coordinates across hierarchy levels while providing geometry that can be projected consistently to beam, shell, solid, and fabrication models.
+  </p>
+  <div class="research-tags"><strong>Topics:</strong> Bishop/RMF frames · hierarchical helices · topology · geometry generation · mesh-ready modelling</div>
+</div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Section</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            font-size: 28px;
-            color: #333;
-        }
-        h3 {
-            font-size: 24px;
-            margin-top: 20px;
-            color: #007BFF;
-        }
-        p {
-            font-size: 16px;
-            color: #555;
-            line-height: 1.6;
-        }
-        .image-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* 每行三列 */
-            grid-gap: 10px;
-            margin-top: 20px;
-        }
-        .image-grid img {
-            width: 100%; /* 确保图片占满单元格 */
-            height: auto; /* 保持图片的比例 */
-            max-width: 150px; /* 设置图片最大宽度 */
-            border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
+<div class="research-card">
+  <h2>2. Contact, instability, and mechanics of helical assemblies</h2>
+  <h3>How local interaction produces global structural behaviour</h3>
+  <p>
+    Helical assemblies develop strongly coupled responses through contact, friction, relative sliding, and geometric constraint.
+    My work investigates how contact networks and local geometry influence effective stiffness, stick-slip response, mode transitions, and bifurcation.
+    An important direction is to identify mechanics that remain common across ropes, cables, layered helical structures, and architected slender systems.
+  </p>
+  <div class="research-tags"><strong>Topics:</strong> contact mechanics · friction · stick-slip · bifurcation · mode transition · homogenised response</div>
+</div>
 
-    <div class="container">
-        <h2>Research-1</h2>
-        <h3>Development of an effective modeling method for the local mechanical analysis of submarine power cables</h3>
-        <p>The structural complexity of submarine power cables (SPCs) and complex contact issues within present significant challenges in their local
-            mechanical analysis. This research introduces an advanced modeling method developed for analyzing the
-            mechanical behavior of SPCs under a range of different loadings, emphasizing both accuracy and efficiency. 
-            The method’s accuracy is validated through a comparison of simulation results with tests conducted on three-core SPC and single-core
-            samples. Efficiency is demonstrated by the superior calculation speed of our model relative to traditional
-            full-scale models. This improved performance is achieved by adopting periodic boundary conditions derived
-            from the homogenization method applied to slender beam-like structures, and by employing a specialized
-            combination of elements to model the helical metal components within the SPCs. The resulting model provides
-            robust capabilities for the mechanical analysis of SPCs. I have made the codes in this research open access. Please find them in Codes page.</p>
+<div class="research-card">
+  <h2>3. Multiscale mechanics of marine cables and flexible structures</h2>
+  <h3>Efficient local analysis of structurally complex systems</h3>
+  <p>
+    My doctoral and continuing research develops reduced and repeated-unit-cell models for submarine power cables and related flexible structures.
+    These methods combine periodic boundary conditions, specialised representations of helical components, and finite-element modelling to retain local mechanical detail at substantially lower computational cost than full-scale models.
+    The framework has been extended from tension and bending to torsion and coupled thermo-electro-mechanical analysis.
+  </p>
+  <div class="image-grid">
+    <img src="/images/SPC-1.png" alt="Submarine power cable model">
+    <img src="/images/SPC-2.png" alt="Submarine power cable cross-section">
+    <img src="/images/SPC-3.png" alt="Repeated unit cell model">
+    <img src="/images/SPC-4.png" alt="Submarine power cable finite-element model">
+    <img src="/images/SPC-5.png" alt="Submarine power cable mechanical analysis">
+    <img src="/images/SPC-6.png" alt="Submarine power cable numerical result">
+  </div>
+  <div class="research-tags"><strong>Topics:</strong> repeated unit cells · homogenisation · finite elements · submarine power cables · multiphysics</div>
+</div>
 
-        <div class="image-grid">
-            <img src="https://pan-fang.github.io/images/SPC-1.png" alt="Submarine power cables-1">
-            <img src="https://pan-fang.github.io/images/SPC-2.png" alt="Submarine power cables-2">
-            <img src="https://pan-fang.github.io/images/SPC-3.png" alt="Submarine power cables-3">
-            <img src="https://pan-fang.github.io/images/SPC-4.png" alt="Submarine power cables-4">
-            <img src="https://pan-fang.github.io/images/SPC-5.png" alt="Submarine power cables-5">
-            <img src="https://pan-fang.github.io/images/SPC-6.png" alt="Submarine power cables-6">
-        </div>
-    </div>
+<div class="research-card">
+  <h2>4. Physical and computational validation</h2>
+  <h3>Connecting models to measurable geometry and mechanics</h3>
+  <p>
+    I use finite-element simulation together with physical and image-based validation to test modelling assumptions.
+    Current interests include additive manufacturing for controlled structural specimens, CT/tomography for internal geometry and contact assessment, and numerical continuation for tracing nonlinear equilibria and bifurcations.
+  </p>
+  <div class="research-tags"><strong>Topics:</strong> finite elements · numerical continuation · additive manufacturing · CT/tomography · model validation</div>
+</div>
 
+<h2>Earlier and application-driven research</h2>
 
+<div class="research-card">
+  <h2>Fibreglass-reinforced flexible pipes</h2>
+  <p>
+    I developed analytical and numerical models in which the fibreglass reinforcement and polyethylene matrix are represented separately rather than homogenised as a single laminate.
+    This enables matrix plasticity and fibreglass failure to be considered explicitly under tension and internal pressure, with experimental validation.
+  </p>
+  <div class="image-grid">
+    <img src="/images/FGRFP-1.png" alt="Fibreglass reinforced flexible pipe">
+    <img src="/images/FGRFP-2.png" alt="Flexible pipe model">
+    <img src="/images/FGRFP-3.png" alt="Flexible pipe analysis">
+    <img src="/images/FGRFP-4.png" alt="Flexible pipe experiment">
+    <img src="/images/FGRFP-5.png" alt="Flexible pipe numerical result">
+    <img src="/images/FGRFP-6.png" alt="Flexible pipe failure analysis">
+  </div>
+</div>
 
-    
-    <div class="container">
-        <h2>Research-2</h2>
-        <h3>Development of an analytical and a numerical model for the fracture analysis of fiberglass reinforced flexible pipes</h3>
-        <p>Composite structures, such as the fiberglass reinforced structure studied in this project, have been normally
-        treated in previous research as homogeneous anisotropic laminated plates regarding the investigation of their
-        mechanical properties. Throughout this research, this specific structure is considered in a different way in which
-        the fiberglass and polyethylene matrix are treated separately. By using the proposed method, the material
-        plasticity of polyethylene and the fracture stress of the fiberglass can be taken into account, and thus the
-        fracture of the fiberglass inside the fiberglass reinforced flexible pipes(FGRFP) can be predicted. The mechanical
-        behavior of FGRFP under two main real-life loadings(tension and internal pressure) is investigated by using
-        analytical and numerical methods based on the proposed technique. Experiments are used to verify the results.</p>
-
-        <div class="image-grid">
-            <img src="https://pan-fang.github.io/images/FGRFP-1.png" alt="FGRFP-1">
-            <img src="https://pan-fang.github.io/images/FGRFP-2.png" alt="FGRFP-2">
-            <img src="https://pan-fang.github.io/images/FGRFP-3.png" alt="FGRFP-3">
-            <img src="https://pan-fang.github.io/images/FGRFP-4.png" alt="FGRFP-4">
-            <img src="https://pan-fang.github.io/images/FGRFP-5.png" alt="FGRFP-5">
-            <img src="https://pan-fang.github.io/images/FGRFP-6.png" alt="FGRFP-6">
-        </div>
-    </div>
-
-
-
-
-
-
-    <div class="container">
-        <h2>Research-3</h2>
-        <h3>Steel strip reinforced flexible pipes; Reeling operation analysis; Fracture of steel ropes; Hydrogen bottle burst</h3>
-        <p>My research also involves other structures, including steel strip reinforced flexible pipes, steel ropes and hydrogen bottles. The following are some images from the relevant research.</p>
-
-        <div class="image-grid">
-            <img src="https://pan-fang.github.io/images/Other_research-1.png" alt="Other_research-1">
-            <img src="https://pan-fang.github.io/images/Other_research-2.png" alt="Other_research-2">
-            <img src="https://pan-fang.github.io/images/Other_research-3.png" alt="Other_research-3">
-            <img src="https://pan-fang.github.io/images/Other_research-4.png" alt="Other_research-4">
-            <img src="https://pan-fang.github.io/images/Other_research-5.png" alt="Other_research-5">
-            <img src="https://pan-fang.github.io/images/Other_research-6.png" alt="Other_research-6">
-        </div>
-    </div>
-
-    
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="research-card">
+  <h2>Other structural-mechanics applications</h2>
+  <p>
+    Earlier projects also include metallic strip flexible pipes, reeling analysis, wire-rope mechanics, and pressure-vessel failure.
+    These studies provided the application background from which my broader interest in the mechanics of slender, layered, and hierarchical structures developed.
+  </p>
+  <div class="image-grid">
+    <img src="/images/Other_research-1.png" alt="Earlier research example 1">
+    <img src="/images/Other_research-2.png" alt="Earlier research example 2">
+    <img src="/images/Other_research-3.png" alt="Earlier research example 3">
+    <img src="/images/Other_research-4.png" alt="Earlier research example 4">
+    <img src="/images/Other_research-5.png" alt="Earlier research example 5">
+    <img src="/images/Other_research-6.png" alt="Earlier research example 6">
+  </div>
+</div>

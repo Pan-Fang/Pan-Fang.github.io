@@ -1,130 +1,102 @@
 ---
 layout: archive
+title: "Research Software"
 permalink: /Codes/
 author_profile: true
 ---
 
-<!-- 在这里添加自己的所有Codes简介 -->
+<style>
+  .software-intro {
+    padding: 1rem 1.1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 7px;
+    background: #fafafa;
+    line-height: 1.65;
+  }
+  .software-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 210px;
+    gap: 1.2rem;
+    align-items: center;
+    padding: 1.25rem 0;
+    border-top: 1px solid #e5e5e5;
+  }
+  .software-item:last-child {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .software-item--text-only {
+    grid-template-columns: 1fr;
+  }
+  .software-item h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  .software-item p {
+    line-height: 1.6;
+  }
+  .software-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #eee;
+  }
+  .software-status {
+    font-size: 0.92em;
+    color: #666;
+  }
+  @media (max-width: 760px) {
+    .software-item {
+      grid-template-columns: 1fr;
+    }
+    .software-item img {
+      max-width: 320px;
+    }
+  }
+</style>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Codes</title>
-    <style>
-        /* 整体布局 */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            margin: 20px;
-        }
-        
-        /* 提示框样式 */
-        .notice {
-            border: 1px solid #ccc;
-            padding: 15px;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-            margin-bottom: 20px;
-            font-size: 20px !important /* 调整字体大小 */
-        }
-        
-        /* 代码部分标题 */
-        .code-section {
-            margin-top: 20px;
-        }
-        
-        /* 单个代码条目的样式 */
-        .code-item {
-            display: flex;
-            align-items: center;
-            border-top: 1px solid #ccc;   /* 顶部边框 */
-            border-bottom: 1px solid #ccc; /* 底部边框 */
-            padding: 15px 0;
-        }
-        
-        /* 代码条目文字内容样式 */
-        .code-text {
-            flex: 1;
-            font-size: 16px !important /* /* 调整字体大小 */
-        }
-        
-        /* 代码条目标题样式 */
-        .code-title {
-            color: #66cc00;
-            font-weight: bold;
-            text-decoration: none;
-        }
+<div class="software-intro">
+  I develop research software to translate geometric and mechanical formulations into reproducible computational workflows.
+  Public codes are linked below where available. Please cite the associated paper(s) when using them for research or industrial work.
+</div>
 
-        /* 下载链接样式 */
-        .download-link {
-            color: #333;
-            text-decoration: none;
-        }
-        
-        /* 图片样式 */
-        .code-image {
-            width: 200px;
-            height: auto;
-            margin-left: 20px;
-        }
-    </style>
-</head>
-<body>
+<div class="software-item">
+  <div>
+    <h2>RUC model — local mechanical analysis of submarine power cables</h2>
+    <p>
+      A repeated-unit-cell workflow for efficient local analysis of submarine power cables.
+      The package includes FORTRAN routines for periodic boundary conditions and Python tools used in preprocessing helical beam/shell representations.
+    </p>
+    <p>
+      <strong>Associated papers:</strong><br>
+      Fang, P. et al. (2024), <em>Development of an effective modeling method for the mechanical analysis of three-core submarine power cables under tension</em>, Engineering Structures 317, 118632.
+      <a href="https://www.sciencedirect.com/science/article/pii/S0141029624011945">Paper</a><br>
+      Fang, P. et al. (2023), <em>Bending study of submarine power cables based on a repeated unit cell model</em>, Engineering Structures 293, 116606.
+      <a href="https://www.sciencedirect.com/science/article/pii/S0141029623010210">Paper</a>
+    </p>
+    <p><a href="/assets/RUC code.zip"><strong>Download code (.zip)</strong></a></p>
+  </div>
+  <img src="/images/SPC-3.png" alt="Repeated unit cell model for submarine power cables">
+</div>
 
-    <!-- 提示框 -->
-    <div class="notice">
-        Please find below a description of some of the codes that I have developed during my research. 
-        Please remember to cite the corresponding paper(s) if you use any of these codes for research or industrial purposes. 
-        Do not hesitate to contact me if you have any questions.
-    </div>
+<div class="software-item software-item--text-only">
+  <div>
+    <h2>HBFM — Hierarchical Bishop-Frame Mapping</h2>
+    <p>
+      A geometry framework under active development for recursive hierarchical helical structures.
+      It uses rotation-minimising frames to separate carrier transport from orbital/material phase and is being developed for geometry generation, topology-preserving modelling, finite-element projection, and fabrication workflows.
+    </p>
+    <p class="software-status"><strong>Status:</strong> research code under active development; public release will follow the associated publication and documentation.</p>
+  </div>
+</div>
 
-    <!-- 代码部分 -->
-    <div class="code-section">
-        <h2>Codes</h2>
-        
-        <!-- 单个代码条目 第一块代码区-->
-        <div class="code-item">
-            <!-- 文字内容部分 -->
-            <div class="code-text">
-                <a href="#" class="code-title">RUC model: an effective model for the local mechanical analysis of submarine power cables</a>
-                <p>
-                    A FORTRAN code and a python code are provided. The former is for the periodical boundary conditions while the latter is for the beam and shell element in pre-processing process.
-                </p>
-                <p>
-                    Paper:  <b>Fang, P.</b>, Li, X., Jiang, X., Hopman, H. and Bai, Y., 2024. Development of an effective modeling method for the mechanical analysis of three-core submarine power cables under tension. Engineering Structures, 317, p.118632. <a href="https://www.sciencedirect.com/science/article/pii/S0141029624011945">Link</a><br>
-                            <b>Fang, P.</b>, Li, X., Jiang, X., Hopman, H. and Bai, Y., 2023. Bending study of submarine power cables based on a repeated unit cell model. Engineering Structures, 293, p.116606. <a href="https://www.sciencedirect.com/science/article/pii/S0141029623010210">Link</a><br>
-                </p>
-                <a href="https://pan-fang.github.io/assets/RUC code.zip" class="download-link">Download code (.zip file)</a>
-            </div>
-            
-            <!-- 图片部分 -->
-            <img src="https://pan-fang.github.io/images/SPC-3.png" alt="Submarine power cables-3" class="code-image">
-        </div>
-
-
-
-        <!-- 单个代码条目 第二块代码区 -->
-        <div class="code-item">
-            <!-- 文字内容部分 -->
-            <div class="code-text">
-                <a href="#" class="code-title">User-defined materials: bending analysis of submarine power cables under multi-physical effects</a>
-                <p>
-                    A FORTRAN code for an user-defined material accounting the temperature effect is provided. To be uploaded soon!
-                </p>
-            </div>
-            
-            <!-- 图片部分 -->
-            <img src="https://pan-fang.github.io/images/UMATDevelopment.png" alt="UMATDevelopment" class="code-image">
-        </div>
-
-
-
-        
-    </div>
-
-</body>
-</html>
-
+<div class="software-item">
+  <div>
+    <h2>Thermo-mechanical material routines for cable bending</h2>
+    <p>
+      FORTRAN user-material routines developed for bending analysis of submarine power cables with temperature-dependent material response and coupled thermo-electro-mechanical effects.
+    </p>
+    <p class="software-status"><strong>Status:</strong> supporting research code; release and documentation are being consolidated.</p>
+  </div>
+  <img src="/images/UMATDevelopment.png" alt="User material development">
+</div>
